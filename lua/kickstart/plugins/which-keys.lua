@@ -66,7 +66,7 @@ return { -- Useful plugin to show you pending keybinds.
       { '<leader>t', group = '[T]oggle' },
       { '<leader>g', group = '[G]it', icon = { icon = '󰊢', color = 'orange' } },
       --    { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
-      { '<leader>gs', '<cmd>0Git<cr>', desc = '[S]tatus', mode = 'n', icon = { icon = '', color = 'blue' } },
+      { '<leader>gs', '<cmd>vsplit +0Git<cr>', desc = '[S]tatus', mode = 'n', icon = { icon = '', color = 'blue' } },
     },
   },
 }
