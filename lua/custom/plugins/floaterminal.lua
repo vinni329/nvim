@@ -54,3 +54,4 @@ end
 
 vim.api.nvim_create_user_command('Floterminal', toggle_terminal, {})
 vim.keymap.set({ 'n', 't' }, '<leader>st', toggle_terminal)
+return {}
