@@ -31,7 +31,8 @@ return { -- Autoformat
       }
     end,
     formatters_by_ft = {
-      lua = { 'stylua', 'yamlfmt' },
+      lua = { 'stylua' },
+      json = { 'prettier' }
       -- Conform can also run multiple formatters sequentially
       -- python = { "isort", "black" },
       --

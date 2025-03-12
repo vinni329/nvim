@@ -208,6 +208,8 @@ return {
       -- ts_ls = {},
       --
       ts_ls = {},
+      yamlls = {},
+      bashls = {},
 
       lua_ls = {
         -- cmd = { ... },
@@ -242,6 +244,9 @@ return {
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
       'yamlfmt',
+      'shfmt',
+      'prettier',
+      'prettierd',
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
